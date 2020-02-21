@@ -28,7 +28,7 @@ wget -P /root https://babyrita.oss-cn-beijing.aliyuncs.com/lnmp/quyeweb/new_blog
 yum -y install unzip && unzip shell.zip 
 && unzip ziliao.zip 
 && chmod +x /root/shell/* 
-&& echo test.perktrees.com > host_name.txt 
+&& echo host_name > host_name.txt 
 && /root/shell/lnmp-install.sh
 
 
