@@ -1,4 +1,4 @@
-一键生成官网(全)
+﻿一键生成官网(全)
 
 准备工作：
 
@@ -28,7 +28,11 @@ wget -P /root https://babyrita.oss-cn-beijing.aliyuncs.com/lnmp/quyeweb/new_blog
 yum -y install unzip && unzip shell.zip 
 && unzip ziliao.zip 
 && chmod +x /root/shell/* 
+<<<<<<< Updated upstream
 && echo host_name > host_name.txt 
+=======
+&& echo test.perktrees.com > host_name.txt 
+>>>>>>> Stashed changes
 && /root/shell/lnmp-install.sh
 
 
@@ -96,4 +100,8 @@ memcache.php可以在线查看memcache里面的数据！！！建设线上去掉
    
    
 
+<<<<<<< Updated upstream
 更多详情请看：http://www.wnwblog.com
+=======
+更多详情请看：http://www.wnwblog.com
+>>>>>>> Stashed changes
