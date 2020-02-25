@@ -23,16 +23,19 @@ wget -P /root https://babyrita.oss-cn-beijing.aliyuncs.com/lnmp/quyeweb/new_blog
 命令中host_name换成你的域名
 
 完成后Ctrl+c退出
+
 或者直接从git上下载new_blog.zip shell.zip ziliao.zip 放在root目录下unzip 解压后执行下面命令：
 
 yum -y install unzip && unzip shell.zip 
+
 && unzip ziliao.zip 
+
 && chmod +x /root/shell/* 
-<<<<<<< Updated upstream
+
 && echo host_name > host_name.txt 
-=======
+
 && echo test.perktrees.com > host_name.txt 
->>>>>>> Stashed changes
+
 && /root/shell/lnmp-install.sh
 
 
