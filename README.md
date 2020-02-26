@@ -104,5 +104,7 @@ memcache.php可以在线查看memcache里面的数据！！！建设线上去掉
    
 
 更多详情请看：http://www.wnwblog.com
+或者 https://v.qq.com/x/page/z3061k5wh6r.html（上下两集，第一集）
+https://v.qq.com/x/page/b3061n1lhns.html（第二集）
 
 
